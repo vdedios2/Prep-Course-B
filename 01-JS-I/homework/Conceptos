@@ -1,0 +1,11 @@
+Variables, es una forma de guardar información, que más adelante podemos consultar o cambiar.
+Strings, es un tipo de dato que se clasifica en una variable o en otra tipo de clasificación. Puede ser texto o números pero siempre entre comillas. Si se suma una string con otra string, el resultado es la union de ambos objetos. Por ejemplo "nombre" + "apellido" = nombre apellido.
+Booleans, es un objeto que nos ayuda a poner lógica a una función, son verdadero o falso.
+Undefined, quiere decir que este objeto no es de ningún tipo aún
+Null, quiere decir que este objeto no va a tener valor, en JS se puede interpretar como 0.
+Operadores, los operadores son como tal las funciones matemáticas, a estos se les aplica una asosiatividad, que básicamente determina qué operación se aplica antes que otras. 
+== vs. ===
+Estos son operadores de comparación, es decir que comparan datos y devuelve un valor booleano, true or false, son VALIDALORES.
+
+== igual a...y solo valida el valor.
+=== igual a...valida el valor y el tipo de dato.
