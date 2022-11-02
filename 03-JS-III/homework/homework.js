@@ -35,9 +35,10 @@ function sumaArray(array){
   // Devuelve el resultado de sumar todos los elementos
   // de un arreglo de enteros dado
   // Tu código:
-  return array.reduce((prev, next) => prev + next, array[0]);
+  var initialValue = 0;
+  var red = array.reduce((prev, next) => prev + next, initialValue);
+  return red
 }
-console.log(sumaArray([1, 2, 3, 4, 5, 6, 7, 8]));
 
 function numeroDigitos(num){
   // Devuelve el número de dígitos de un número dado
