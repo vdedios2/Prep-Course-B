@@ -5,32 +5,49 @@
 // No cambies los nombres de las funciones.
 
 function imprimirSumaNumeros() {
-    // Imprime la suma de los números del 1 al 10
-    // Pista: usa un acumulador
-    // Tu código:
+  // Imprime la suma de los números del 1 al 10
+  // Pista: usa un acumulador
+  // Tu código:
+var suma=0;
+  for (var i=0; i<=10; i++){
+   suma+=i;
+  }
+return suma;
 }
 
 function encuentraPares(array){
   // Devuelve un arreglo con los pares encontrados
   // en el arreglo de enteros pasado como parámetro
   // Tu código:
+  var pares = array.filter((x)=>x%2==0);
+  return pares
 }
 
 function elevaAlCuadrado(array){
   // Devuelve un arreglo con cada número del array
   // elevado al cuadrado
   // Tu código:
+  return array.map((num) => num**2);
+
 }
 
 function sumaArray(array){
   // Devuelve el resultado de sumar todos los elementos
   // de un arreglo de enteros dado
   // Tu código:
+  return array.reduce((prev, next) => prev + next, array[0]);
 }
+console.log(sumaArray([1, 2, 3, 4, 5, 6, 7, 8]));
 
 function numeroDigitos(num){
   // Devuelve el número de dígitos de un número dado
   // Tu código:
+ console.log(typeof num);
+ console.log(num);
+  num += '';
+  console.log(typeof num);
+  console.log(num);
+  return num.length
 }
   
   
